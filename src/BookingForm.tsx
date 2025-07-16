@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Lottie from "lottie-react";
-import loadingAnimation from "./loading-icon.json";
+{/*import loadingAnimation from "./loading-icon.json";*/}
 
 interface BookingFormProps {
   selectedDate: Date;
