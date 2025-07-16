@@ -28,7 +28,7 @@ const Index = () => {
       setIsLoadingSlots(true);
     try {
       const response = await fetch(
-        `http://localhost:5000/available-slots?date=${date.toISOString().split("T")[0]}`
+        `https://prenotazioni-backend-g3h0.onrender.com/available-slots?date=${date.toISOString().split("T")[0]}`
       );
       if (!response.ok) throw new Error("Errore nella richiesta");
 
