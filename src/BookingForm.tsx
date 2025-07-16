@@ -30,7 +30,7 @@ export function BookingForm({ selectedDate, selectedTime, onSubmit }: BookingFor
     };
 
     try {
-      const response = await fetch("http://localhost:5000/book-lesson", {
+      const response = await fetch("https://prenotazioni-backend-g3h0.onrender.com/book-lesson", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
